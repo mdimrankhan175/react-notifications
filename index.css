@@ -1,0 +1,51 @@
+/* Write your code here. */
+
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.info {
+  display: flex;
+  background-color: #0b69ff;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  margin: 10px;
+}
+
+.success {
+  display: flex;
+  background-color: #2dca73;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  margin: 10px;
+}
+.warning {
+  display: flex;
+  background-color: #ffb800;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  margin: 10px;
+}
+.error {
+  display: flex;
+  background-color: #ff0b37;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  margin: 10px;
+}
+.image {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.text {
+  color: #ffffff;
+}
